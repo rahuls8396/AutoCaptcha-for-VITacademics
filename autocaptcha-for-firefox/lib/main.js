@@ -2,7 +2,7 @@
 var pageMod = require("sdk/page-mod");
 var self = require("sdk/self");
 pageMod.PageMod({
-  include: ["https://academics.vit.ac.in/parent/parent_login.asp","https://academics.vit.ac.in/student/stud_login.asp","https://academics.vit.ac.in/parent/","https://academics.vit.ac.in/student/","https://27.251.102.132/parent/parent_login.asp","https://27.251.102.132/student/stud_login.asp","https://27.251.102.132/parent/","https://27.251.102.132/student/"],
+  include: ["https://academics.vit.ac.in/parent/parent_login.asp","https://academics.vit.ac.in/student/stud_login.asp","https://academics.vit.ac.in/parent/","https://academics.vit.ac.in/student/","27.251.102.132/parent/parent_login.asp","27.251.102.132/student/stud_login.asp","27.251.102.132/parent/","27.251.102.132/student/"],
   contentScriptFile: self.data.url("captcha.js")
 });
 
